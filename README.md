@@ -15,6 +15,6 @@ A user can manipulate this deployment to their hearts content after reading the 
 
 #### 2. Change into the Shinyproxy git directory and execute the setup script with priviliges
 ```sudo sh ubuntu_setup.sh```
-#####Note: If the user is NOT on Ubuntu, this script needs to be edited to match your system!  The intent of this script is to enable the TCP docker managment on port 2375, and then open port 81, restart docker, and pull the wbarshop/milkyway_shiny docker image.
+- Note: If the user is NOT on Ubuntu, this script needs to be edited to match your system!  The intent of this script is to enable the TCP docker managment on port 2375, and then open port 81, restart docker, and pull the wbarshop/milkyway_shiny docker image.
 
 #### 3. Run the ShinyProxy instance via `sudo sh run_shinyproxy.sh`
