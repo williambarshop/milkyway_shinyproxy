@@ -18,3 +18,7 @@ A user can manipulate this deployment to their hearts content after reading the 
 - Note: If the user is NOT on Ubuntu, this script needs to be edited to match your system!  The intent of this script is to enable the TCP docker managment on port 2375, and then open port 81, restart docker, and pull the wbarshop/milkyway_shiny docker image.
 
 #### 3. Run the ShinyProxy instance via `sudo sh run_shinyproxy.sh`
+- Consider running this under `screen` so that you can move along with your life without watching the shiny stdout ride by...
+
+#### 4. Connect to the running ShinyProxy instance on port 81
+```http://your-server-ip-or-hostname:81/```
