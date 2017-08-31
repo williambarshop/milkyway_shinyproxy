@@ -1,2 +1,2 @@
-# milkyway_shinyproxy_docker
-Milkyway Shinyproxy Docker
+# milkyway_shinyproxy
+Milkyway ShinyProxy 
